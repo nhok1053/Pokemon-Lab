@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8BBD0"
+    tools:context="com.example.hasan.test.PlayFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fragmentplay_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_chevron_left_black_24dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:id="@+id/pb_time"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:max="100"
+                android:progress="20"
+                android:progressDrawable="@drawable/customprogressbar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="#FFFF" />
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/pansear"  />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn1"
+                android:text="panser"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="#FFFF" />
+            <Button
+                android:id="@+id/btn2"
+                android:text="panser"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="#FFFF"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn3"
+                android:text="panser"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="#FFFF" />
+            <Button
+                android:id="@+id/btn4"
+                android:text="panser"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="#FFFF"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>
